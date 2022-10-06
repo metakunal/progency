@@ -1,7 +1,58 @@
 .solve {
-    background-color: #4CAF50;
+  background-color: #4caf50;
 }
 
 .solved {
-    background-color: #e7e7e7;
+  background-color: #e7e7e7;
+}
+body {
+  background: rgb(30, 76, 255);
+  background: linear-gradient(
+    15deg,
+    rgba(30, 76, 255, 1) 0%,
+    rgba(179, 23, 240, 1) 50%,
+    rgba(17, 170, 255, 1) 82%,
+    rgba(0, 77, 238, 1) 100%
+  );
+  height: 97vh;
+}
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 0.5;
+}
+.User-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.User-info .form-control {
+  height: 39px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-right: 5px;
+  padding-left: 15px;
+  border: 0px;
+}
+.User-info .btn {
+  height: 42px;
+  width: 130px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 0px;
 }
