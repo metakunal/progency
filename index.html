@@ -10,23 +10,25 @@
     <title>Document</title>
 </head>
 
-
-
-<body class="container overflow-hidden mx-auto my-[2.5rem] w-full flex flex-col ">
-    <div class="w-full flex flex-col items-center">
-        <h1 class="bold">Codeforces problem of the day</h1>
+<body>
+    <h1>Codeforces problem of the day</h1>
+    <br>
+    <hr>
+    <div class="quote">
+        <p>Slow and steady wins the race</p>
     </div>
-
-    <div class="flex border-2 rounded-md border-slate-400 border-solid mx-auto h-[50vh] flex-wrap items-center content-center justify-end w-3/5 my-12 relative">
-        <div class="flex flex-col justify-evenly content-center items-center flex-wrap h-3/4 px-10">
-            <h2 >Quote Of The Day</h2>
-            <p id="quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt delectus est vel itaque, aut aliquam totam accusantium numquam, laboriosam culpa architecto, consequatur fugiat tempora.</p>
-            <h4 id="author">~Lorem, ipsum.</h4>
-        </div>
-        <div class="px-10 py-5">
-            <button id="btn" class="w-[10vw]  border-2 rounded-md border-slate-400 border-solid">click</button>
-        </div>
+    <div class="User-info">
+        <input type="text" class="form-control" placeholder="Username" id="btn" name="username">
+        <button type="button" class="btn btn-info">Submit</button>
     </div>
+    <br>
+    <hr>
+
+    <div class="prb-info">
+        <a href="https://codeforces.com/problemset/problem/785/A">Anton and Polyhedron</a>
+        <button type="button" id="btn2" class="solve">Solve</button>
+    </div>
+    <div id="err"></div>
     <!-- Footer -->
 
     <footer class="fixed bottom-0 left-0 z-20 p-1 w-full text-center lg:text-left bg-gray-900">
