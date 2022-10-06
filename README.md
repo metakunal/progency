@@ -1,4 +1,4 @@
-# progency
+# Progency 💻
 A platform started to help programmers get all the resources they want at one place. Our first product will be a codeforces problem of the day platform.
 
 ## Current Work
