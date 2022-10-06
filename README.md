@@ -13,6 +13,7 @@ I have opened many issues, which are beginner friendly you can work on those. Ot
 <li>Tailwind CSS is preferred for styling.</li>
 <li>Consistent color themes to be used Background : FFF7E9 Headings/Buttons: FF731D Text: Different shades of black</li>
 <li>Use your own sense of design as to what looks good and what not.</li>
+<li>Inspiration for design can be taken from gfg POTD.</li>
 <li>How to make a PR : <a href="https://www.youtube.com/watch?v=JYe-XyFTuk0">Video</a></li>
 <li>Upload a screenshot of the site after you have made your contribution.</li>
 <li>Do run the site locally and check if everything is working after you ave done your work.</li>
