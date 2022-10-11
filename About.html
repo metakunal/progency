@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+   </head>
+   <body>
+      <nav
+         class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
+      >
+         <div
+            class="container flex flex-wrap justify-between items-center mx-auto"
+         >
+            <a href="https://flowbite.com/" class="flex items-center">
+               <svg
+                  fill="#000000"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30"
+                  width="30px"
+                  height="30px"
+               >
+                  <path
+                     d="M11.166 20.194c.806.577 2.809 1.923 3.222 2.358.412.435.023 1.099.023 1.099l.618.252c.137-.298.962-1.397 1.511-2.084.496-.62.926-1.706.941-2.503.047-2.572-3.367-3.794-4.949-5.237-.778-.71-.16-1.122-.16-1.122l-.527-.343C9.808 14.926 7.662 17.686 11.166 20.194zM12.922 11.605c1.969 1.74 5.435 3.548 5.679 4.717.318 1.523-.412 2.382-.412 2.382l.394.321c.213-.304.451-.591.67-.891.892-1.222 1.752-2.463 2.629-3.695 2.004-2.818 1.254-5.49-1.765-7.648-1.537-1.098-3.032-2.26-4.584-3.339-.871-.733-.275-2.107-.275-2.107l-.367-.32c0 0-3.286 3.984-3.573 5.588C11.045 8.148 10.953 9.865 12.922 11.605zM23 27L22.341 25 7.659 25 7 27 11.19 27 11.822 29 18.217 29 18.816 27z"
+                  />
+               </svg>
+            </a>
+            <div class="flex md:order-2">
+               <div class="flex">
+                  <ul
+                     class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+                  >
+                     <li>
+                        <a
+                           href="#"
+                           class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                           aria-current="page"
+                           >Login</a
+                        >
+                     </li>
+                     &nbsp; | &nbsp;
+                     <li>
+                        <a
+                           href="#"
+                           class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                           aria-current="page"
+                           >Sign Up</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div
+               class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
+               id="navbar-sticky"
+            >
+               <ul
+                  class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+               >
+                  <li>
+                     <a
+                        href="index.html"
+                        class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                        >Home</a
+                     >
+                  </li>
+                  <li>
+                     <a
+                        href="About.html"
+                        class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                        aria-current="page"
+                        >About</a
+                     >
+                  </li>
+                  <li>
+                     <a
+                        href="#"
+                        class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                        >CF-POTD</a
+                     >
+                  </li>
+                  <li>
+                     <a
+                        href="#"
+                        class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                        >Resources</a
+                     >
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <main>
+         <section class="left">
+            <h1>ABOUT US</h1>
+            <p>
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
+               maxime. Nam sint laborum laboriosam? Quos, voluptates saepe quae
+               eveniet magnam iste. Numquam id, nesciunt nihil ad quas sunt non
+               accusamus.
+            </p>
+            <br />
+            <button>Learn More</button>
+         </section>
+         <section class="right">
+            <img src="about.png" alt="" />
+         </section>
+      </main>
+   </body>
+</html>

@@ -1,7 +1,38 @@
 .solve {
-    background-color: #4CAF50;
+   background-color: #4caf50;
 }
 
 .solved {
-    background-color: #e7e7e7;
+   background-color: #e7e7e7;
+}
+
+main {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 90vh;
+   padding: 0px 50px;
+}
+
+.left {
+   flex-basis: 30%;
+}
+
+.left h1 {
+   font-size: 40px;
+   font-weight: bold;
+}
+
+.left button {
+   background-color: rgb(0, 76, 255);
+   color: whitesmoke;
+   height: 50px;
+   width: 120px;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.right img {
+   width: 700px;
+   margin-top: 100px;
 }
